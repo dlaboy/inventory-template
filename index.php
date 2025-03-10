@@ -367,7 +367,7 @@ if (isset($_POST['submit1'])) { // check item quantity
 
 <body>
     <nav class="nav-bar nav-section">
-        <div class="row bg-dark">
+        <div class="row bg-dark p-2">
             <div class="col d-flex flex-row justify-content-evenly align-items-center">
                 <a href="https://oasispos-79128360d945.herokuapp.com" class="nav-link text-decoration-none text-light">Home</a>
                 <!-- <a href="/monitor_app/past.php" class="nav-link text-decoration-none text-light">Past Orders</a>
@@ -375,7 +375,8 @@ if (isset($_POST['submit1'])) { // check item quantity
                 <a href="/inventory2/" class="nav-link text-decoration-none text-light">Inventory</a> -->
             </div>
             <div class="col d-flex justify-content-center align-items-center">
-                <img class="logo" src="./img/logo2.png" alt="" />
+                <!-- <img class="logo" src="./img/logo2.png" alt="" /> -->
+                 <h1 class="text-white">Inventory</h1>
             </div>
         </div>
     </nav>
@@ -403,7 +404,7 @@ if (isset($_POST['submit1'])) { // check item quantity
 
 
                         <div class="dropdown">
-                            <button class="btn btn-warning rounded-3 w-100 " type="button" data-bs-toggle="dropdown"
+                            <button class="btn btn-primary rounded-3 w-100 " type="button" data-bs-toggle="dropdown"
                                 aria-expanded="true">
                                 +
                             </button>
@@ -508,7 +509,7 @@ if (isset($_POST['submit1'])) { // check item quantity
 
 
                         <div class="dropdown">
-                            <button class="btn btn-warning rounded-3" type="button" data-bs-toggle="dropdown"
+                            <button class="btn btn-primary rounded-3" type="button" data-bs-toggle="dropdown"
                                 aria-expanded="true">
                                 +
                             </button>
